@@ -156,13 +156,13 @@ case value of
   $0c       :result := 11;     
 
   $1f       :result := 5;
-  $23       :result := 14;
+  $23       :result := 14; // dword_512B40
   $16       :result := 17; // dword_512B30
   $1b       :result := 6;
   $29       :result := 3;
   $14       :result := 24;
 
-  $21       :result := 10;
+  $21       :result := 10; // dword_512B5C
   $03       :result := 7;
   $0e       :if iniSettings.weaponidpatch then Result:= 17 else result := 14; // Packet_AraeOfDamage_Len
 
